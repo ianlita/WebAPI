@@ -1,0 +1,21 @@
+dotnet new webapi -n YourFileName -controllers // to create new project named YourFileName with default controllers
+dotnet build
+dotnet run //click the link then provide the endpoint // localhost:1234/WeatherForecast
+dotnet dev-certs https --trust
+
+ADDITIONAL:
+you can use "dotnet watch" to use the hot reload instead of "dotnet run". it will make you edit the code while running the server
+
+-tools and package to use
+dotnet install tool -g Microsoft.dotnet-httpreplhttp (after install we can use the "httprepl http://localhost:1234/")
+dotnet add package Scalar.AspNetCore ("localhost:1234/scalar/v1" so that you can access the scalar web api ui)
+
+EXTENSION:
+THUNDERCLIENT
+C# DEVKIT
+.NET INSTALL TOOL
+
+
+httprepl - ) is a command-line tool that allows you to test APIs. It is 
+lightweight and cross-platform, so it can run anywhere. It supports the GET, POST, PUT, DELETE, 
+HEAD, OPTIONS, and PATCH HTTP verbs.
