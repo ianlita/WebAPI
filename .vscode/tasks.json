@@ -7,6 +7,6 @@
             "type": "process",
             "args": ["build"],
             "problemMatcher": "$msCompile"
-		}
+		},
 	]
 }

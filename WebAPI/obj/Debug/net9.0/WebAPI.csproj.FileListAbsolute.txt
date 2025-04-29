@@ -32,3 +32,4 @@ C:\Users\chris\source\repos\WebAPI\WebAPI\obj\Debug\net9.0\WebAPI.pdb
 C:\Users\chris\source\repos\WebAPI\WebAPI\obj\Debug\net9.0\WebAPI.genruntimeconfig.cache
 C:\Users\chris\source\repos\WebAPI\WebAPI\obj\Debug\net9.0\ref\WebAPI.dll
 C:\Users\chris\source\repos\WebAPI\WebAPI\bin\Debug\net9.0\Scalar.AspNetCore.dll
+C:\Users\chris\source\repos\WebAPI\WebAPI\obj\Debug\net9.0\WebAPI.sourcelink.json
