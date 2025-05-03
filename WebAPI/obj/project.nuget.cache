@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "60OpiXmaXVM=",
+  "dgSpecHash": "lwdsOAY22A4=",
   "success": true,
   "projectFilePath": "C:\\Users\\chris\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.4\\microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\scalar.aspnetcore\\2.2.1\\scalar.aspnetcore.2.2.1.nupkg.sha512"
   ],
