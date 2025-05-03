@@ -6,7 +6,7 @@ using WebAPI.Models;
 
 namespace WebAPI.Services
 {
-    public class PostService
+    public class PostService : IPostService
     {
         private static readonly List<Post> AllPosts = new List<Post> {
             new Post { Id = 1, UserId = 1, Title = "Post 1", Body = "This is the body of post 1" },
@@ -55,6 +55,11 @@ namespace WebAPI.Services
                 AllPosts.Remove(post);
             }
             return Task.CompletedTask;
+        }
+
+        public Task CratePost(Post item)
+        {
+            throw new NotImplementedException();
         }
     }
 }
