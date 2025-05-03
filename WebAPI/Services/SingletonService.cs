@@ -16,7 +16,6 @@ namespace WebAPI.Services
         }
 
         public string Name() => nameof(SingletonService);
-
-        public string SayHello() => $"Hello from {Name} with ID: {_serviceId} created at {_createdAt}";
+        public string SayHello() => $"Hello from {Name()} with ID: {_serviceId} created at {_createdAt}";
     }
 }

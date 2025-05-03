@@ -24,10 +24,10 @@ namespace WebAPI.Services
         public string Name() => nameof(ScopedService);   
         public string SayHello() 
         {
-            var scopedServiceMessage = $"Hello from {Name} with ID: {_serviceId} created at {_createdAt}";
-            var transientServiceMessage = $"{_transientService.SayHello()}. I am from {Name}";
-            var singletonServiceMessage = $"{_singletonService.SayHello()}. I am from {Name}";
-            
+            var scopedServiceMessage = $"Hello from {Name()} with ID: {_serviceId} created at {_createdAt}";
+            var transientServiceMessage = $"{_transientService.SayHello()}. I am from {Name()}";
+            var singletonServiceMessage = $"{_singletonService.SayHello()}. I am from {Name()}";
+
             return $"{scopedServiceMessage}\n {transientServiceMessage}\n {singletonServiceMessage}\n";
         }
             

@@ -33,3 +33,5 @@ C:\Users\chris\source\repos\WebAPI\WebAPI\obj\Debug\net9.0\WebAPI.genruntimeconf
 C:\Users\chris\source\repos\WebAPI\WebAPI\obj\Debug\net9.0\ref\WebAPI.dll
 C:\Users\chris\source\repos\WebAPI\WebAPI\bin\Debug\net9.0\Scalar.AspNetCore.dll
 C:\Users\chris\source\repos\WebAPI\WebAPI\obj\Debug\net9.0\WebAPI.sourcelink.json
+C:\Users\chris\source\repos\WebAPI\WebAPI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\chris\source\repos\WebAPI\WebAPI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

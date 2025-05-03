@@ -17,7 +17,8 @@ namespace WebAPI.Services
         }
 
         public string Name() => nameof(TransientService);
-        public string SayHello() => $"Hello from {Name} with ID: {_serviceId} created at {_createdAt}";
+        public string SayHello() => $"Hello from {Name()} with ID: {_serviceId} created at {_createdAt}";
+        
 
     }
 }
