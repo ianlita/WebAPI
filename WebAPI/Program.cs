@@ -11,6 +11,8 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddScoped<IPostService, PostService>();    
 
+builder.Services.AddTransient<ITransientService, TransientService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
