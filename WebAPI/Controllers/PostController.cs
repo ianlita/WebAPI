@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Models;
+using WebAPI.Services;
 
 namespace WebAPI.Controllers
 {
@@ -11,6 +12,13 @@ namespace WebAPI.Controllers
     [Route("[controller]")]
     public class PostController : ControllerBase
     {
+        private readonly IPostService _postService;
+
+        public PostController(IPostService postService)
+        {
+            _postService = postService;
+    
+        }
         [HttpGet]
         public ActionResult<List<Post>> GetPosts()
         {
