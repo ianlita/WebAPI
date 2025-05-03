@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Services
 {
-    public interface IScopedService
+    public interface IScopedService : IService
     {
         
     }

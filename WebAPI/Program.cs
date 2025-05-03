@@ -12,6 +12,9 @@ builder.Services.AddOpenApi();
 builder.Services.AddScoped<IPostService, PostService>();    
 
 builder.Services.AddTransient<ITransientService, TransientService>();
+builder.Services.AddSingleton<ISingletonService, SingletonService>();
+builder.Services.AddScoped<IScopedService, ScopedService>();
+
 
 var app = builder.Build();
 

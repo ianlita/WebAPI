@@ -14,11 +14,12 @@ namespace WebAPI.Controllers
     {
         private readonly IPostService _postService;
 
+
         public PostController(IPostService postService)
         {
             _postService = postService;
-    
         }
+        
         [HttpGet]
         public ActionResult<List<Post>> GetPosts()
         {

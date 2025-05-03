@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Services
 {
-    public interface ISingletonService
+    public interface ISingletonService : IService
     {
         
     }
